@@ -6,6 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.4;
+  position: relative;
 }
 
 .product {
@@ -76,3 +77,48 @@ body {
   margin: 10px;
 }
 
+.sale {
+  position: absolute;
+  top: -10px;
+  left: 60px;
+  background-color: rgb(237, 40, 40);
+  color: white;
+  padding: 5px 15px;
+  font-size: 14px;
+  text-align: center;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+}
+
+.box {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.blue {
+  background-color: #234fd3;
+}
+
+.red {
+  background-color: #e12828;
+}
+
+.yellow {
+  background-color: #edb02c;
+}
+
+.green {
+  background-color: #299829;
+}
+
+.brown {
+  background-color: #773636;
+}
